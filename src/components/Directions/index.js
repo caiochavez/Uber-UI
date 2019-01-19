@@ -6,9 +6,9 @@ const Directions = ({ origin, destination, onReady }) => (
   origin={origin} 
   destination={destination}
   onReady={onReady}
-  apiKey='AIzaSyARjR2OGgg9m4YH2LzfN-iaGaKgy1394JA'
+  apikey='AIzaSyARjR2OGgg9m4YH2LzfN-iaGaKgy1394JA'
   strokeWidth={3}
-  strokeColor='#222' />
+  strokeColor='hotpink' />
 )
 
 export default Directions
